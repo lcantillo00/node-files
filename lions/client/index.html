@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"> -->
+</head>
+<body>
+    <main>
+        <h1>Lions</h1>
+        <form name="lions">
+            <div class="textbox">
+                <input type="text" name="lion-name"class="lionName" id="lionName"required/>
+                <span class="highlight"></span>
+                <label>Lion name</label>
+            </div>
+            <div class="textbox">
+                <input type="text" name="lion-pride" class="lionPride" id="lionPride"required/>
+                <span class="highlight"></span>
+
+                <label>Lion pride</label>
+            </div>
+            <input type="number"name="lion-age" id="lionAge" class="lionAge">
+            <select name="select" id="select" class="select">
+                <option value="female">female</option>
+                <option value="male">male</option>
+            </select>
+            <button type="submit" id="submit"class="submit">Submit</button>
+            <div class="content">
+                <ul class="lion-list"></ul>
+            </div>
+            <button type="button" class="show" id="show">Show lions</button>
+            <table id="tables1">
+                <tr class="mytr">
+                    <td id="tdname"></td>
+                    <td id="tdpride"></td>
+                    <td id="tdage"></td>
+                    <td id="tdStat"></td>
+                </tr>
+            </table>
+        </table>
+
+        </form>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+ <script src="app.js">
+
+ </script>
+</body>
+</html>
